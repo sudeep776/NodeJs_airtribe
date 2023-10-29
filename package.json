@@ -1,0 +1,16 @@
+{
+  "name": "api-workshop",
+  "version": "1.0.0",
+  "description": "Airtribe workshop on api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "production":"node server.js"
+  },
+  "author": "sudeep",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}

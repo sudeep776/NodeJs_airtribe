@@ -1,0 +1,37 @@
+APIs
+--- 
+
+Get all movies: 
+
+Request URL: /api/movies 
+Method: GET 
+Body: --
+Response: [{movie}, {movie}]
+
+
+Get single movie 
+
+Request URL: /api/movies/{some unique identifier}
+Method: GET 
+Body: --
+Response: movie 
+
+
+Create a movie 
+
+Request URL: /api/movies 
+Method: POST 
+Body: {movie}
+Response: status: true / movie created 
+
+Update a movie 
+Request URL: /api/movies/{some unique id}
+Method: PUT / PATCH 
+Response: status: true / update movie object 
+
+
+DELETE a movie 
+
+Request URL: /api/movies/{some unique id}
+Method: DELETE
+Response: status: true / deleted movie object
